@@ -1,10 +1,3 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-}
-
 .Widget {
   width: 25em;
   height: 35em;
@@ -27,11 +20,6 @@ height: 5em;
 padding: 3em 1em;
 }
 
-.Widget .banner:after{
-
-  position: absolute;
-
-}
 .Widget .banner .description p{
 width: 10em;
 color:  grey;
@@ -66,9 +54,6 @@ padding: 3em 3em;
   width:1.2em;
   height:1.2em;
 }
-input[type="checkbox"] {
-  visibility: hidden;
-  } 
 
 .Widget .card .getButton {
   background-color: rgb(7, 138, 245);
