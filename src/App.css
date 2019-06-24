@@ -1,0 +1,106 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.Widget {
+  width: 25em;
+  height: 35em;
+  max-height: 40em;
+  max-width: 25em;
+  box-shadow: 0 0 3px 3px rgb(204, 197, 197);
+  right:0;
+  position: absolute;
+  top :30px;
+  margin-right: 5em;
+  border-radius: 5px;
+}
+
+.Widget .banner{
+text-align: left;
+background: url("http://blog.livingactor.com/wp-content/uploads/Rebecca_RH.png" ) right bottom no-repeat, linear-gradient(to right, rgb(204, 197, 197),white) no-repeat;
+background-size: 11em 11em;
+
+height: 5em;
+padding: 3em 1em;
+}
+
+.Widget .banner:after{
+
+  position: absolute;
+
+}
+.Widget .banner .description p{
+width: 10em;
+color:  grey;
+}
+.Widget .banner .description .title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+
+}
+
+.Widget .card{
+display: flex;
+align-items: stretch;
+justify-content: space-evenly;
+flex-direction: column;
+height: 15em;
+padding: 3em 3em;
+}
+.Widget .card .name{
+  width: 20em;
+  position: relative;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid purple;
+}
+
+.Widget .card .checkbox{
+
+  line-height: 1em;
+  vertical-align: top;
+  width:1.2em;
+  height:1.2em;
+}
+input[type="checkbox"] {
+  visibility: hidden;
+  } 
+
+.Widget .card .getButton {
+  background-color: rgb(7, 138, 245);
+   padding: 0.5em 3em;
+   border-radius: 5px;
+   display: block;
+   text-align: center;
+   align-self: center;
+   border: none;
+   margin:auto;
+    margin-top: 2em;
+    color: white;
+    width:15em;
+    height:3em;
+}
+.Widget .card label{
+  color: rgb(94, 88, 88);
+ 
+}
+
+.Widget .card a{
+  color:rgb(35, 79, 223);
+  text-decoration: none;
+}
+.Widget .card .skipButton{
+  border: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em 1em;
+  align-self: center;
+  border-radius: 5px;
+  margin:auto;
+  display:block;
+  color: rgb(35, 79, 223)
+}
